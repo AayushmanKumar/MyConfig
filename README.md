@@ -7,4 +7,3 @@ Uses default powerline.
 
 ## Neofetch
 Custom ASCII art for my neofetch ! //icecube
-
