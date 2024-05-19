@@ -5,7 +5,7 @@
 # launch Neofetch on Terminal Launch
 LIVE_COUNTER=$(ps a | awk '{print $2}' | grep -vi "tty*" | uniq | wc -l);
 if [ $LIVE_COUNTER -eq 1 ]; then
-     neofetch --ascii ~/Desktop/code/my_ascii_logo_neofetch.md
+     neofetch --ascii ~/Desktop/dotfiles/neofetch/my_ascii_logo_neofetch.md
 fi
 
 # Add this to your PATH if it’s not already declared
